@@ -1,0 +1,117 @@
+html {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #dfe3e9;
+    text-shadow: 0 0 0.8em;
+    margin: 0;
+    text-align: center;
+}
+
+button {
+    padding: 15px 32px;
+    border-radius: 0.5em;
+    background-color: rgb(37, 126, 156);
+    color: bisque;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    transition-duration: 0.4s;
+    border: 2px solid rgb(37, 126, 156);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: bisque;
+    color: rgb(37, 126, 156);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 80px;
+    background-color: #1f2937;
+}
+
+.hero {
+    display: flex;
+    background-image: url("img/celeste-wallpaper.jpeg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    background-color: #00000085;
+    padding: 50px;
+    border-radius: 1em;
+    display: flex;
+    box-shadow: 2px 2px 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    height: 320px;
+    max-width: auto;
+}
+
+.hero-cta {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e2e4e7;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.card-section {
+    display: flex;
+}
