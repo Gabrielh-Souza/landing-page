@@ -50,12 +50,12 @@ button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 20px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(-4px);
 }
+
 h2 {
     color: beige;
     text-align: center;
     margin: 1em 0 1.5em 0;
     font-size: 36px;
-    font-weight: 900;
 }
 
 .header {
@@ -132,10 +132,12 @@ h2 {
     box-shadow: 0 6px 16px black;
     transition-duration: 0.4s;
 }
+
 .card-img:hover {
     box-shadow: 0 0 30px 4px #6f00ff;
     transform: scale(1.06);
 }
+
 .memes {
     object-fit: fill;
 }
@@ -145,4 +147,31 @@ h2 {
     margin: 1em 0 2em 0;
     font-size: 18px;
     font-weight: 600;
+}
+
+.quote {
+    background-image: url("img/celeste-wallpaper2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 2.5em;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 2em rgb(0, 0, 0);
+}
+.quote-author {
+    font-size: 1.7em;
+    color: #ffffff;
+    text-shadow: 0 0 2em black;
+    align-self: flex-end;
 }
