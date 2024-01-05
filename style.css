@@ -107,7 +107,7 @@ p {
 
 .hero-image {
     height: 320px;
-    max-width: auto;
+    width: auto;
 }
 
 .hero-cta {
@@ -123,6 +123,7 @@ p {
     font-size: 18px;
     color: #e2e4e7;
     text-align: center;
+    margin: 1em 0;
 }
 
 .about {
